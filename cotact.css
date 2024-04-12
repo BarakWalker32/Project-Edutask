@@ -1,0 +1,53 @@
+contact1.html
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.contact{
+    min-height: 100vh;
+    background-color: transparent;
+    padding: 50px;
+    text-align: center;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.container h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #333;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/jackson-03.png);
+    background-size: auto;
+    background-position: center;
+    background-color: #81bdf8;
+  }
